@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Streamlit (later)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/streamlit",
+      "args": ["run", "src/dashboard_streamlit/app.py"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Dash (later)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/python",
+      "args": ["src/dashboard_dash/app.py"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

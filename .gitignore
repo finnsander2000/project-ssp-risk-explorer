@@ -1,0 +1,28 @@
+# --- Python / venv ---
+.venv*/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/*.log
+
+# --- Env / secrets ---
+.env
+
+# --- Data (local) ---
+data/raw/
+data/interim/
+
+# If you expect large processed outputs, keep them local too:
+# data/processed/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Build / cache ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

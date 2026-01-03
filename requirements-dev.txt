@@ -1,0 +1,6 @@
+black
+ruff
+pytest
+pre-commit
+mypy
+ipykernel
