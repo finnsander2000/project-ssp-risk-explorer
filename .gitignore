@@ -16,6 +16,10 @@ __pycache__/
 data/raw/
 data/interim/
 
+# allow dummy datasets
+!data/raw/dummy/
+!data/raw/dummy/**
+
 # If you expect large processed outputs, keep them local too:
 # data/processed/
 
