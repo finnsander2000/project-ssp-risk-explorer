@@ -13,10 +13,10 @@ __pycache__/
 .env
 
 # --- Data (local) ---
-data/raw/
+data/raw/*
 data/interim/
 
-# allow dummy datasets
+# allow dummy datasets (tracked)
 !data/raw/dummy/
 !data/raw/dummy/**
 
